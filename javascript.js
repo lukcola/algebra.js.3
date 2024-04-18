@@ -23,3 +23,20 @@ console.log(myNiz.length);
 console.log(myNiz);
 
 // za breakpointove: F10 je red po red, a F5 je do sljedećeg breakpointa.
+
+var x = 0;
+console.log(x++); //++x
+console.log(x);
+
+
+var a = true;
+var b = false;
+
+console.log(!(a || b) == (a && a));
+
+
+var a = 5;
+var b = 4;
+
+var c = b % a;
+console.log(c);
