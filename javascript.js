@@ -17,3 +17,9 @@ console.log(myString.replace(`moj`, `naš`)); //.replaceAll()
 console.log(myString.toLocaleUpperCase());
 
 console.log(myString.substring(7, myString.length));
+
+var myNiz = myString.split(` `);
+console.log(myNiz.length);
+console.log(myNiz);
+
+// za breakpointove: F10 je red po red, a F5 je do sljedećeg breakpointa.
